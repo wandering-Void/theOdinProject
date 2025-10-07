@@ -1,0 +1,193 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Containers */
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-color: #1F2937;
+  color: white;
+  padding: 20px 0;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: #E5E7EB;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #1F2937;
+  color: white;
+  padding: 80px 0;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.hero-text h1 {
+  font-size: 36px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  color: #E5E7EB;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.hero-text button {
+  background-color: #3882F6;
+  color: white;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.hero-image {
+  background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 400px;
+}
+
+/* Info Section */
+.info {
+  text-align: center;
+  padding: 60px 0;
+}
+
+.info h2 {
+  font-size: 24px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 150px;
+}
+
+.box {
+  border: 2px solid #3882F6;
+  border-radius: 12px;
+  height: 150px;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #1F2937;
+}
+
+/* Quote Section */
+.quote {
+  background-color: #E5E7EB;
+  padding: 80px 0;
+  text-align: center;
+}
+
+blockquote {
+  font-size: 18px;
+  color: #1F2937;
+  font-style: italic;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+cite {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* CTA Section */
+.cta {
+  padding: 60px 0;
+}
+
+.cta-content {
+  background-color: #3882F6;
+  color: white;
+  border-radius: 8px;
+  padding: 40px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cta-text h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cta-text p {
+  font-size: 14px;
+}
+
+.cta-content button {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 25px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #1F2937;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: auto;
+}
